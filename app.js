@@ -9,7 +9,7 @@ var hashtag = require('./routes/hashtag');
 var index = require('./routes/index');
 //database setup
 var mongoose = require('mongoose');
-mongoose.connect(process.env.MONGOLAB_URL || 'mongodb://localhost/instagramexample');
+mongoose.connect(process.env.MONGOLAB_URI || 'mongodb://localhost/instagramexample');
 //load environment variables
 var dotenv = require('dotenv');
 dotenv.load();
