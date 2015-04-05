@@ -1,5 +1,9 @@
 Instagram Example
 ===========
+Assignment Number: 0
+Name: James Edward Natanauan
+Partner: None
+Course: COGS 121 SP15
 
 Discussion 1:
 

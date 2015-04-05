@@ -1,0 +1,101 @@
+2015-04-05T17:15:31.027273+00:00 app[web.1]: Error
+2015-04-05T17:15:31.027304+00:00 app[web.1]:     at g (events.js:180:16)
+2015-04-05T17:15:31.041655+00:00 app[web.1]: 
+2015-04-05T17:15:31.027307+00:00 app[web.1]:     at null.<anonymous> (/app/node_modules/mongoose/node_modules/mongodb/node_modules/mongodb-core/lib/topologies/server.js:238:68)
+2015-04-05T17:15:31.027278+00:00 app[web.1]:     at Server.close (/app/node_modules/mongoose/node_modules/mongodb/lib/server.js:344:17)
+2015-04-05T17:15:31.027306+00:00 app[web.1]:     at emit (events.js:98:17)
+2015-04-05T17:15:31.027309+00:00 app[web.1]:     at g (events.js:180:16)
+2015-04-05T17:15:30.991149+00:00 app[web.1]: Sun, 05 Apr 2015 17:15:30 GMT connect deprecated multipart: use parser (multiparty, busboy, formidable) npm module instead at node_modules/express/node_modules/connect/lib/middleware/bodyParser.js:56:20
+2015-04-05T17:15:31.048895+00:00 app[web.1]: npm ERR! 
+2015-04-05T17:15:31.007665+00:00 app[web.1]: Express server listening on port 33955
+2015-04-05T17:15:31.049685+00:00 app[web.1]: npm ERR! not with npm itself.
+2015-04-05T17:15:31.048479+00:00 app[web.1]: npm ERR! mywebapp@0.0.1 start: `node app.js`
+2015-04-05T17:15:31.048727+00:00 app[web.1]: npm ERR! Exit status 8
+2015-04-05T17:15:31.049579+00:00 app[web.1]: npm ERR! This is most likely a problem with the mywebapp package,
+2015-04-05T17:15:31.050136+00:00 app[web.1]: npm ERR!     node app.js
+2015-04-05T17:15:31.050258+00:00 app[web.1]: npm ERR! You can get their info via:
+2015-04-05T17:15:31.050493+00:00 app[web.1]: npm ERR! There is likely additional logging output above.
+2015-04-05T17:15:31.050376+00:00 app[web.1]: npm ERR!     npm owner ls mywebapp
+2015-04-05T17:15:31.050626+00:00 app[web.1]: npm ERR! System Linux 3.13.0-40-generic
+2015-04-05T17:15:31.051012+00:00 app[web.1]: npm ERR! cwd /app
+2015-04-05T17:15:31.049233+00:00 app[web.1]: npm ERR! Failed at the mywebapp@0.0.1 start script.
+2015-04-05T17:15:31.050824+00:00 app[web.1]: npm ERR! command "/app/.heroku/node/bin/node" "/app/.heroku/node/bin/npm" "start"
+2015-04-05T17:15:31.051244+00:00 app[web.1]: npm ERR! node -v v0.10.38
+2015-04-05T17:15:31.051577+00:00 app[web.1]: npm ERR! code ELIFECYCLE
+2015-04-05T17:15:31.051406+00:00 app[web.1]: npm ERR! npm -v 1.4.28
+2015-04-05T17:15:31.049810+00:00 app[web.1]: npm ERR! Tell the author that this fails on your system:
+2015-04-05T17:15:31.053881+00:00 app[web.1]: npm ERR!     /app/npm-debug.log
+2015-04-05T17:15:31.053666+00:00 app[web.1]: npm ERR! 
+2015-04-05T17:15:31.054075+00:00 app[web.1]: npm ERR! not ok code 0
+2015-04-05T17:15:31.053772+00:00 app[web.1]: npm ERR! Additional logging details can be found in:
+2015-04-05T17:15:32.073470+00:00 heroku[web.1]: State changed from crashed to starting
+2015-04-05T17:15:32.072568+00:00 heroku[web.1]: State changed from starting to crashed
+2015-04-05T17:15:32.060776+00:00 heroku[web.1]: Process exited with status 1
+2015-04-05T17:15:37.840461+00:00 heroku[web.1]: Starting process with command `npm start`
+2015-04-05T17:15:39.563148+00:00 app[web.1]: Detected 512 MB available memory, 512 MB limit per process (WEB_MEMORY)
+2015-04-05T17:15:39.563171+00:00 app[web.1]: Recommending WEB_CONCURRENCY=1
+2015-04-05T17:15:40.013264+00:00 app[web.1]: > mywebapp@0.0.1 start /app
+2015-04-05T17:15:40.013267+00:00 app[web.1]: > node app.js
+2015-04-05T17:15:40.013260+00:00 app[web.1]: 
+2015-04-05T17:15:40.013268+00:00 app[web.1]: 
+2015-04-05T17:15:40.309499+00:00 app[web.1]: { [Error: ENOENT, no such file or directory '.env'] errno: 34, code: 'ENOENT', path: '.env', syscall: 'open' }
+2015-04-05T17:15:40.700933+00:00 app[web.1]: Sun, 05 Apr 2015 17:15:40 GMT connect deprecated limit: Restrict request size at location of read at node_modules/express/node_modules/connect/lib/middleware/multipart.js:86:15
+2015-04-05T17:15:40.731768+00:00 app[web.1]: 
+2015-04-05T17:15:40.731887+00:00 app[web.1]: /app/node_modules/mongoose/node_modules/mongodb/lib/server.js:228
+2015-04-05T17:15:40.732156+00:00 app[web.1]:         process.nextTick(function() { throw err; })
+2015-04-05T17:15:40.732270+00:00 app[web.1]: Error
+2015-04-05T17:15:40.732243+00:00 app[web.1]:                                             ^
+2015-04-05T17:15:40.732282+00:00 app[web.1]:     at Server.close (/app/node_modules/mongoose/node_modules/mongodb/lib/server.js:344:17)
+2015-04-05T17:15:40.732272+00:00 app[web.1]:     at Error.MongoError (/app/node_modules/mongoose/node_modules/mongodb/node_modules/mongodb-core/lib/error.js:13:17)
+2015-04-05T17:15:40.732274+00:00 app[web.1]:     at Server.destroy (/app/node_modules/mongoose/node_modules/mongodb/node_modules/mongodb-core/lib/topologies/server.js:629:47)
+2015-04-05T17:15:40.732283+00:00 app[web.1]:     at Db.close (/app/node_modules/mongoose/node_modules/mongodb/lib/db.js:267:19)
+2015-04-05T17:15:40.732285+00:00 app[web.1]:     at /app/node_modules/mongoose/node_modules/mongodb/lib/db.js:196:12
+2015-04-05T17:15:40.732288+00:00 app[web.1]:     at g (events.js:180:16)
+2015-04-05T17:15:40.732290+00:00 app[web.1]:     at emit (events.js:98:17)
+2015-04-05T17:15:40.732287+00:00 app[web.1]:     at null.<anonymous> (/app/node_modules/mongoose/node_modules/mongodb/lib/server.js:226:9)
+2015-04-05T17:15:40.732292+00:00 app[web.1]:     at null.<anonymous> (/app/node_modules/mongoose/node_modules/mongodb/node_modules/mongodb-core/lib/topologies/server.js:238:68)
+2015-04-05T17:15:40.732293+00:00 app[web.1]:     at g (events.js:180:16)
+2015-04-05T17:15:40.744799+00:00 app[web.1]: 
+2015-04-05T17:15:40.714207+00:00 app[web.1]: Express server listening on port 43985
+2015-04-05T17:15:40.700595+00:00 app[web.1]: Sun, 05 Apr 2015 17:15:40 GMT connect deprecated multipart: use parser (multiparty, busboy, formidable) npm module instead at node_modules/express/node_modules/connect/lib/middleware/bodyParser.js:56:20
+2015-04-05T17:15:40.750851+00:00 app[web.1]: npm ERR! mywebapp@0.0.1 start: `node app.js`
+2015-04-05T17:15:40.751054+00:00 app[web.1]: npm ERR! Exit status 8
+2015-04-05T17:15:40.751207+00:00 app[web.1]: npm ERR! 
+2015-04-05T17:15:40.751311+00:00 app[web.1]: npm ERR! Failed at the mywebapp@0.0.1 start script.
+2015-04-05T17:15:40.752516+00:00 app[web.1]: npm ERR! not with npm itself.
+2015-04-05T17:15:40.752394+00:00 app[web.1]: npm ERR! This is most likely a problem with the mywebapp package,
+2015-04-05T17:15:40.752618+00:00 app[web.1]: npm ERR! Tell the author that this fails on your system:
+2015-04-05T17:15:40.752937+00:00 app[web.1]: npm ERR!     node app.js
+2015-04-05T17:15:40.753043+00:00 app[web.1]: npm ERR! You can get their info via:
+2015-04-05T17:15:40.753151+00:00 app[web.1]: npm ERR!     npm owner ls mywebapp
+2015-04-05T17:15:40.753695+00:00 app[web.1]: npm ERR! cwd /app
+2015-04-05T17:15:40.753397+00:00 app[web.1]: npm ERR! System Linux 3.13.0-40-generic
+2015-04-05T17:15:40.753823+00:00 app[web.1]: npm ERR! node -v v0.10.38
+2015-04-05T17:15:40.754337+00:00 app[web.1]: npm ERR! npm -v 1.4.28
+2015-04-05T17:15:40.753256+00:00 app[web.1]: npm ERR! There is likely additional logging output above.
+2015-04-05T17:15:40.753554+00:00 app[web.1]: npm ERR! command "/app/.heroku/node/bin/node" "/app/.heroku/node/bin/npm" "start"
+2015-04-05T17:15:40.754486+00:00 app[web.1]: npm ERR! code ELIFECYCLE
+2015-04-05T17:15:40.756609+00:00 app[web.1]: npm ERR! Additional logging details can be found in:
+2015-04-05T17:15:40.756710+00:00 app[web.1]: npm ERR!     /app/npm-debug.log
+2015-04-05T17:15:40.756518+00:00 app[web.1]: npm ERR! 
+2015-04-05T17:15:40.756908+00:00 app[web.1]: npm ERR! not ok code 0
+2015-04-05T17:15:41.588073+00:00 heroku[web.1]: State changed from starting to crashed
+2015-04-05T17:15:41.571212+00:00 heroku[web.1]: Process exited with status 1
+2015-04-05T17:16:20.528010+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=young-stream-7921.herokuapp.com request_id=b60c1dc9-1f5e-4d1d-aecc-016146fccd59 fwd="128.54.181.33" dyno= connect= service= status=503 bytes=
+2015-04-05T17:16:21.586049+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/favicon.ico" host=young-stream-7921.herokuapp.com request_id=bd0eac7a-badd-489d-8037-4b3ceabf1ff5 fwd="128.54.181.33" dyno= connect= service= status=503 bytes=
+2015-04-05T17:17:34.699748+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=young-stream-7921.herokuapp.com request_id=9458b9e1-ded0-4287-b449-fed7284c6187 fwd="128.54.181.33" dyno= connect= service= status=503 bytes=
+2015-04-05T17:17:35.396002+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/favicon.ico" host=young-stream-7921.herokuapp.com request_id=5e01b74d-d1ac-4483-8b0a-9397227edd91 fwd="128.54.181.33" dyno= connect= service= status=503 bytes=
+2015-04-05T17:21:32.653522+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=young-stream-7921.herokuapp.com request_id=9f83b898-1cb9-4e95-a585-3ea0c7895f28 fwd="128.54.181.33" dyno= connect= service= status=503 bytes=
+2015-04-05T17:21:33.266193+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/favicon.ico" host=young-stream-7921.herokuapp.com request_id=2b8469b1-4c7d-40ea-bcc1-a20612aeebba fwd="128.54.181.33" dyno= connect= service= status=503 bytes=
+2015-04-05T17:23:40.567176+00:00 heroku[api]: Set maintenance mode on by jamesjedn@gmail.com
+2015-04-05T17:23:51.054253+00:00 heroku[router]: at=info code=H80 desc="Maintenance mode" method=GET path="/" host=young-stream-7921.herokuapp.com request_id=53f2c295-4718-4ee7-97f9-0a242fb37207 fwd="128.54.181.33" dyno= connect= service= status=503 bytes=
+2015-04-05T17:23:51.983683+00:00 heroku[router]: at=info code=H80 desc="Maintenance mode" method=GET path="/favicon.ico" host=young-stream-7921.herokuapp.com request_id=da446a0f-32d9-4e0e-895c-e0347132758d fwd="128.54.181.33" dyno= connect= service= status=503 bytes=
+2015-04-05T17:25:06.639630+00:00 heroku[api]: Set maintenance mode off by jamesjedn@gmail.com
+2015-04-05T17:25:10.588868+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=young-stream-7921.herokuapp.com request_id=78f60454-9626-4d51-af84-d5db2bd9b9a1 fwd="128.54.181.33" dyno= connect= service= status=503 bytes=
+2015-04-05T17:25:11.216088+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/favicon.ico" host=young-stream-7921.herokuapp.com request_id=bbdc26e3-c2e5-4165-96bd-4db0080c2106 fwd="128.54.181.33" dyno= connect= service= status=503 bytes=
+2015-04-05T17:36:18.705471+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=young-stream-7921.herokuapp.com request_id=fe99d3b7-645c-4978-907f-b6f5670040d2 fwd="128.54.181.33" dyno= connect= service= status=503 bytes=
+2015-04-05T17:36:19.108632+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/favicon.ico" host=young-stream-7921.herokuapp.com request_id=619dcf6e-8726-4e6e-bd26-be8659ac34dc fwd="128.54.181.33" dyno= connect= service= status=503 bytes=
+2015-04-05T17:36:20.187937+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=young-stream-7921.herokuapp.com request_id=e6166d67-8864-414e-a811-e2468bca20d3 fwd="128.54.181.33" dyno= connect= service= status=503 bytes=
+2015-04-05T17:36:20.538322+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/favicon.ico" host=young-stream-7921.herokuapp.com request_id=b640b4d9-3356-4980-9cd7-7caeab24cc6f fwd="128.54.181.33" dyno= connect= service= status=503 bytes=
+2015-04-05T17:39:31.405342+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=young-stream-7921.herokuapp.com request_id=be505642-5a11-4092-8f0c-774e1de2eac9 fwd="128.54.181.33" dyno= connect= service= status=503 bytes=
+2015-04-05T17:39:31.793835+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/favicon.ico" host=young-stream-7921.herokuapp.com request_id=8dd473cb-5687-4362-8974-97de611eb8d7 fwd="128.54.181.33" dyno= connect= service= status=503 bytes=
